@@ -11,7 +11,9 @@ CustomFont makes easy to choose step-fonts when the 1st option isn't available.
 Just use fontsWithNameAndSize: passing a dictionary containing {fontName: fontSize}, and it'll return a UIFont. 
 And you can reuse it at will.
 
-Usage:
+Usage
+-----
 
-UIFont *customFont = [CustomFont fontsWithNameAndSize:@{@"Avenir Next": @14.0f, @"Helvetica Neue": @16.0f}];
-[self.loginButton.titleLabel setFont:customFont];
+    UIFont *customFont = [CustomFont fontsWithNameAndSize:@{@"Avenir Next": @14.0f,
+														    @"Helvetica Neue": @16.0f}];
+    [self.loginButton.titleLabel setFont:customFont];
